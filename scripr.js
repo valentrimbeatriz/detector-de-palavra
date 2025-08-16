@@ -1,8 +1,8 @@
 const botaoExporPalavras = document.querySelector('#botao-termodepesquisa');
 
-botaoMostraPalavras.addEventListener('click', termodepesquisa);
+botaoExporPalavras.addEventListener('click', termodepesquisa);
 
-function exporPalavrasChave() {
+function ExporPalavrasChave() {
     const texto = document.querySelector('#entrada-de-texto').value;
     const campoResultado = document.querySelector('#resultado-palavrachave');
     const palavras = texto.split(" ");
